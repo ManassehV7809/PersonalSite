@@ -10,7 +10,8 @@ function App() {
     <div className="App">
    <>
    <div className='introPic'>
-   <img src={corparate} alt="A picture of Vusani" style={{ maxWidth: '100%', height:'20%' }} />
+   <img src={corparate} alt="A picture of Vusani" className="profile-image" />
+
 
 
 </div>

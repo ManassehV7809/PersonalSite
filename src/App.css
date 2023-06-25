@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-background-image: url('./assets/hero.jpg');
+background-image: url('./assets/white.jpg');
   background-position:center;
   color: rgb(0, 0, 0);
   font-family: 'Montagu Slab', serif; 
@@ -16,12 +16,7 @@ background-image: url('./assets/hero.jpg');
 }
 
 
-.image-container{
 
-  width: 100%;
-  padding: auto;
-  border-radius: 3%;
-}
 /* Section headings */
 h2 {
   font-size: 24px;
@@ -90,6 +85,8 @@ max-height: 25%;
 
 }
 .introPic{
+
+height: 20%;
 }
 
 .skills{
@@ -118,11 +115,16 @@ padding: auto;
   box-shadow: #fefefe;
   padding: auto;
   
-  
-
 
 }
 
+.profile-image {
+  width:35%;
+  height:100%;
+ box-shadow: #0a0a0a;
+ z-index: 2;
+  /* Add additional styles here */
+}
 
 
 
