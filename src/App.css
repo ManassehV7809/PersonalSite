@@ -1,38 +1,129 @@
 .App {
   text-align: center;
+background-image: url('./assets/hero.jpg');
+  background-position:center;
+  color: rgb(0, 0, 0);
+  font-family: 'Montagu Slab', serif; 
+  /* font-family: 'Caprasimo', cursive;
+  font-family: 'Montserrat', sans-serif; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
 .App-link {
-  color: #61dafb;
+  color: #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.image-container{
+
+  width: 100%;
+  padding: auto;
+  border-radius: 3%;
 }
+/* Section headings */
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Experience section */
+#section-experience ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#section-experience li {
+  margin-bottom: 20px;
+}
+
+#section-experience strong {
+  font-weight: bold;
+}
+
+/* Skills section */
+#section-skills ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#section-skills li {
+  margin-bottom: 10px;
+}
+
+/* Resume section */
+#section-resume p {
+  margin-bottom: 10px;
+}
+
+#section-resume a {
+  text-decoration: none;
+  color: #007bff; /* Change color as desired */
+}
+
+/* Contact section */
+#section-contact ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#section-contact li {
+  margin-bottom: 10px;
+}
+/* Common styles for all card-like divs */
+
+
+
+
+
+
+.introWords{
+ 
+  display: flexbox;
+  flex-direction: row;
+padding: auto;
+width:25%;
+max-height: 25%;
+
+
+}
+.introPic{
+height: 25%;
+}
+
+.skills{
+
+
+
+padding: auto;
+
+
+}
+.exp{
+
+background-color:white;
+box-shadow: #fefefe;
+padding: auto;
+
+
+
+
+}
+
+.contact{
+
+ 
+  background-color:white;
+  box-shadow: #fefefe;
+  padding: auto;
+  
+  
+
+
+}
+
+
+
+
