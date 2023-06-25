@@ -1,0 +1,74 @@
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-items: space-between;
+  text-align: center;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    font-family: 'Montagu Slab', serif; 
+    width: 100%;
+
+}
+
+  .exp {
+    margin-top: 3%;
+    background-color: white;
+    box-shadow: #fefefe;
+    padding: auto;
+  }
+  
+  .skills {
+    background-image: url('../../assets/white.jpg');
+    background-color: white;
+    box-shadow: #222121;
+    padding: auto;
+  
+  }
+  
+  .contact {
+    background-color: white;
+    box-shadow: #fefefe;
+    padding: auto;
+
+  }
+  
+  #section-experience ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #section-experience li {
+    margin-bottom: 20px;
+  }
+  
+  #section-experience strong {
+    font-weight: bold;
+  }
+  
+  #section-skills ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #section-skills li {
+    margin-bottom: 10px;
+  }
+  
+  #section-resume p {
+    margin-bottom: 10px;
+  }
+  
+  #section-resume a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  #section-contact ul {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  
+  #section-contact li {
+    margin-bottom: 10px;
+  }
+  
