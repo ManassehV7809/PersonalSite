@@ -2,8 +2,8 @@
     position: fixed;
     width: 100%;
     height:7%;
-   background-image: url('../assets/white.jpg');
-    box-shadow: rgb(255, 255, 255);
+   background:white;
+    box-shadow: rgb(155, 147, 147);
     list-style-type: none;
     justify-items: space-between;
 z-index: 1;
