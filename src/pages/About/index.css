@@ -11,7 +11,7 @@
 }
 
   .exp {
-    margin-top: 3%;
+    margin-top: 3.2%;
     background-color: white;
     box-shadow: #fefefe;
     padding: auto;
@@ -72,4 +72,7 @@
   #section-contact li {
     margin-bottom: 10px;
   }
-  
+  .iconsDiv{
+    display: flex;
+    flex-direction: column;
+  }

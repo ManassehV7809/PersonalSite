@@ -3,7 +3,7 @@
   flex-direction: column;
   justify-items: space-between;
   text-align: center;
-    background-image: url('../../assets/hero.jpg');
+    /* background-image: url('../../assets/hero.jpg'); */
     background-position: center;
     color: rgb(0, 0, 0);
     font-family: 'Montagu Slab', serif; 
@@ -14,7 +14,7 @@
   .introPic {
     margin-top: 50px;
     height: 50%;
-    width: 50%;
+    width: 100%;
 
   }
   

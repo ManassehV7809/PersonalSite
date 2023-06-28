@@ -8,7 +8,7 @@ function Home(){
   <div className="home-container">
    
     <div className='introPic'>
-      <img src={corparate} alt="A picture of Vusani" className="profile-image" />
+      <img src={corparate} alt="Loading Pic..." className="profile-image" />
     </div>
     <div className='intro'>
       <h2><strong> Ndau ya nduna!</strong></h2>
