@@ -1,14 +1,22 @@
-.about-container{
+.about-container {
+  background-image: url('../../assets/hero.jpg');
   display: flex;
   flex-direction: column;
-  justify-items: space-between;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-    background-position: center;
-    color: rgb(0, 0, 0);
-    font-family: 'Montagu Slab', serif; 
-    width: 100%;
-
+  background-position: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Montagu Slab', serif;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
+
 
   .exp {
     margin-top: 3.2%;
@@ -27,9 +35,10 @@
   }
   
   .contact {
-    background-color: white;
+    background-image: url('../../assets/white.jpg');
     box-shadow: #fefefe;
     padding: auto;
+    border-radius: 50%;
 
   }
   
