@@ -1,6 +1,6 @@
 import React from 'react';
 import corparate from '../../assets/corparate.jpg'
-import './index.css'
+import './index.scss'
 
 
 function Home(){
@@ -11,8 +11,8 @@ function Home(){
       <img src={corparate} alt="Loading Pic..." className="profile-image" />
     </div>
     <div className='intro'>
-      <h2><strong> Ndau ya nduna!</strong></h2>
-      <div>
+      <h2 class='header'><strong> Ndau ya nduna!</strong></h2>
+      <div class='paragraphs'>
   
         <p>I'm Vusani Radzilani, a passionate individual with a strong affinity for the world of technology. Currently pursuing my studies in Computer Science, I am driven to stay at the forefront of innovation and make a positive impact in the field.</p>
         <p>Throughout my educational journey, I have acquired valuable skills and knowledge in various areas, including programming languages such as Python, C++, and Java. I have also gained hands-on experience with technologies like ReactJS and Flutter, further expanding my technical toolkit.</p>

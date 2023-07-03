@@ -1,0 +1,41 @@
+
+  
+.opener{
+  background-color: #607d8b;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size:17px;
+  font-style: normal;
+  font-weight: lighter;
+  color:whitesmoke;
+  position: fixed;
+  z-index: 3;
+}
+.nav-wrapper{
+  position: fixed;
+  z-index: 3;
+  background-image: url(../assets/white.jpg);
+  background-size: 500%;
+}
+  
+   .navbar-list {
+    list-style-type: none;
+    padding-left: 0;
+   display: flex;
+    list-style-type: none;
+  
+    padding: 0;
+  }
+  
+  .nav-item {
+    list-style-type: none;
+    padding-left: 0;
+    border-radius: 0.5rem;
+  }
+  .buttonn:hover{
+    background-color: whitesmoke;
+    transform: scaleX(1.2) translateY(8%);
+    color: rgba(0, 0, 0, 0.664);;
+  }
+
+  
+  
