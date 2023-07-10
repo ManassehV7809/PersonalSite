@@ -71,3 +71,8 @@ font-weight: lighter;
 
    
   }
+  .back-to-top:hover{
+
+    transform: scaleX(3.0) scaleY(3.0) translate3d(0,0,20px);
+
+  }

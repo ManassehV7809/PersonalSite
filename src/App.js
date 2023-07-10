@@ -13,6 +13,7 @@ return(
     <>
 <Helmet>
         <meta name="description" content="This is Vusani Radzilani's personal website." />
+        <meta name="keywords" content="Vusani Radzilani, Vusani Manasseh, Vusani, Radzilani" />
       </Helmet>
 
 <BrowserRouter>

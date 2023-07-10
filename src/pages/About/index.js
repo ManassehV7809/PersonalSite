@@ -1,11 +1,16 @@
 import React from 'react';
 import './index.scss';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
 
 
 function About() {
   const downloadUrl = 'gs://vusani-radzilani.appspot.com/resume.pdf';
-
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
   return (
     <div class="about-container">
       <div class=" chapters card shadow hoverable">
@@ -60,10 +65,16 @@ function About() {
           </p>
           <ul>
             <li>
-              <i className="fas fa-envelope"></i> vusanimradzilani@gmail.com
+            <a href="mailto:vusanimradzilani@gmail.com">
+  <i className="fas fa-envelope"></i> vusanimradzilani@gmail.com
+</a>
+
             </li>
             <li>
-              <i className="fas fa-phone"></i> +27 82 683 1746
+              <a href='tel:+27 82 683 1746'>
+              <i className="fas fa-phone"></i>
+              +27 82 683 1746
+              </a>
             </li>
             <div className='iconsDiv'>
               <li>
@@ -81,8 +92,16 @@ function About() {
         
         </div>
       </div>
+      <a href="#" className="back-to-top hover" onClick={scrollToTop}>
+          <FontAwesomeIcon icon={faArrowUp}  />
+      
+        </a>
+      
     </div>
+
+    
   );
+ 
 }
 
 export default About;
