@@ -7,7 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function About() {
-  const downloadUrl = 'gs://vusani-radzilani.appspot.com/resume.pdf';
+  const downloadUrl = 'https://firebasestorage.googleapis.com/v0/b/vusani-radzilani.appspot.com/o/resume.pdf?alt=media&token=a42c89a5-8fbd-4f8f-89f3-b2b7cb26948b';
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
@@ -53,7 +53,7 @@ function About() {
           My journey has also led me to a fulfilling role as a head tutor for computer science at Wits University. In this position, I have the opportunity to impart my knowledge and experiences to first-year students, guiding them as they take their first steps into the world of technology. I endeavor to create a supportive learning environment that fosters curiosity, critical thinking, and personal growth. Through designing engaging assignments, reviewing projects, and providing personalized support, I ensure that each student receives the guidance they need to flourish. This role allows me to give back and inspire future generations, just as I was once inspired by others on my own remarkable journey.
         </p>
         <p class='paragraph'>
-          And if you're looking to check out my resume, <a href={downloadUrl}>click right here</a>.
+          And if you're looking to check out my resume, <a href={downloadUrl} target="_blank">click right here</a>.
         </p>
       </div>
 
