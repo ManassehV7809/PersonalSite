@@ -93,7 +93,7 @@ function About() {
         </div>
       </div>
       <a href="#" className="back-to-top hover" onClick={scrollToTop}>
-          <FontAwesomeIcon icon={faArrowUp}  />
+         Back to top <FontAwesomeIcon icon={faArrowUp}  />
       
         </a>
       

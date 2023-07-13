@@ -1,7 +1,9 @@
 import React from 'react';
 import corparate from '../../assets/corparate.jpg'
 import AnimatedSpans from '../mainHeader';
-import './index.scss'
+import './index.scss';
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 
 function Home(){
@@ -23,7 +25,12 @@ function Home(){
         <p>Ndo livhuwa,</p>
         <p>Vusani Radzilani</p>
       </div>
+  
     </div>
+    <a href="#" className="back-to-top hover">
+         Back to top <FontAwesomeIcon icon={faArrowUp}  />
+      
+        </a>
   </div>
 );
     }
